@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust related to mutable references. The `bug.rs` file contains code that, while seemingly correct, highlights a potential concurrency issue. The solution is presented in `bugSolution.rs`, illustrating how to correctly handle mutable borrowing to avoid data races.
